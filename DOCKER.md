@@ -1,0 +1,10 @@
+- `docker login`: login to docker hub
+- `docker run <image>`: run new container
+  - `-p <port>:<port>`: mapping port from OS to inside docker daemon
+  - `--name`: give container a name
+  - `-d`: run as daemon
+- `docker start <name|id>`: start existing container
+- `docker top <name|id>`: stop runing container
+- `docker ps`: display running container
+  - `-a`: display all included stopped container
+- `docker rm <name|id>`: delete existing container
