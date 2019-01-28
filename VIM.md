@@ -1,23 +1,12 @@
-vi mode:
+## vi mode
+- `q` : quite
+  - `q!`: force quit
+- `w` : save
+- `?regex` : search
+- `split` / `sp` : split window vertically
+  - `CTRL + W`: switch between windows
+- `vsplit` / `vsp` : split window horizontally
 
-`q` : quite
-
-`w` : save
-
-`?regex` : search
-
-`split` / `sp` : split window vertically
-
-`vsplit` / `vsp` : split window horizontally
-
-command mode:
-
-`dd`: delete current line
-
-`v` : split window horizontally
-
-`CTRL + W` x 2: switch between window
-
-`CTRL + W, =` : resize window to equal
-
-`gg` : go to start
+## command mode
+- `dd`: delete current line
+- `gg` : go to start
