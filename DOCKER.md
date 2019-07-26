@@ -6,5 +6,6 @@
 - `docker start <name|id>`: start existing container
 - `docker top <name|id>`: stop runing container
 - `docker ps`: display running container
-  - `-a`: display all included stopped container
+  - `-a / --all`: display all included stopped container
+  - `-q / --quite`: only display id
 - `docker rm <name|id>`: delete existing container
